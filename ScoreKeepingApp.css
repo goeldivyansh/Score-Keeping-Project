@@ -1,0 +1,28 @@
+body {
+	/*margin: auto;*/
+	/*text-align: center;*/
+	background: #cfc5d1;
+}
+
+.winner {
+	color: green;
+}
+div {
+	padding-top: 5px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.form-control {
+	width: 400px;
+	padding-bottom: 5px;
+	alignment-baseline: center; 
+}
+input {
+	align-self:  center;
+}
+h1 {
+	font-weight: 600;
+}
