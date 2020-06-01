@@ -6,7 +6,7 @@ var span1 = document.querySelector("#span1");
 var span2 = document.querySelector("#span2");
 var input = document.querySelector("input");
 var winningScoreDisplay = document.querySelector("#times");
-
+var resultMsgDisplay = document.querySelector("#resultMsg");
 
 var p1Score = 0;
 var p2Score = 0;
@@ -32,6 +32,7 @@ function p1()
 		{
 			span1.classList.add("winner");
 			span1.textContent = p1Score;
+			resultMsgDisplay.textContent = "Player 1 wins!!";
 			gameOver = true;	
 		}	
 	}
@@ -55,6 +56,7 @@ function p2()
 		{
 			span2.classList.add("winner");
 			span2.textContent = p2Score;
+			resultMsgDisplay.textContent = "Player 2 wins!!";
 			gameOver = true;	
 		}		
 	}
@@ -73,6 +75,7 @@ function reset()
 	span2.textContent = p1Score;
 	span1.classList.remove("winner");
 	span2.classList.remove("winner");
+	resultMsgDisplay.textContent = "";
 	gameOver=false;
 }
 

@@ -1,6 +1,7 @@
 body {
-	/*margin: auto;*/
-	/*text-align: center;*/
+
+	margin-top:100px ;
+	text-align: center;
 	background: #cfc5d1;
 }
 
@@ -18,6 +19,7 @@ p {
 .form-control {
 	width: 400px;
 	padding-bottom: 5px;
+	display: inline-block;
 	alignment-baseline: center; 
 }
 input {
@@ -25,4 +27,8 @@ input {
 }
 h1 {
 	font-weight: 600;
+}
+
+#resultMsg {
+	font-size: 30px;
 }
