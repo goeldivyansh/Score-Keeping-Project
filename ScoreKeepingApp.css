@@ -1,13 +1,14 @@
 body {
-
-	margin-top:100px ;
-	text-align: center;
-	background: #cfc5d1;
+	color: white;
+	margin-top:80px ;
+	/*text-align: center;*/
+	background: #1C2D37;
 }
 
-.winner {
-	color: green;
+button {
+	color: black;
 }
+
 div {
 	padding-top: 5px;
 }
@@ -16,19 +17,38 @@ p {
 	font-size: 20px;
 }
 
+/*input {
+	align-self:  center;
+}*/
+
+h1 {
+	font-weight: 600;
+}
+
+.size {
+	font-size: 25px;
+}
+
+#rules {
+	font-size: 30px;
+}
+
 .form-control {
 	width: 400px;
 	padding-bottom: 5px;
 	display: inline-block;
 	alignment-baseline: center; 
 }
-input {
-	align-self:  center;
-}
-h1 {
-	font-weight: 600;
+
+ol {
+	/*text-indent: bottom;*/
+	/*list-style: none;*/
+	margin-left: : 0;
+	/*text-align: bottom;*/
+	/*vertical-align: bottom;*/
+	font-size: 18px;
 }
 
-#resultMsg {
-	font-size: 30px;
+.winner {
+	color: green;
 }
